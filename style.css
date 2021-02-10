@@ -92,14 +92,14 @@ span::before{
     white-space: pre;
 }
 span.first::before{
-    animation: text 0.1s steps(10);
+    animation: text 0.25s steps(10);
     animation-iteration-count: 10;
 }
 span.second::before{
-    animation: text 1s steps(10);
+    animation: text 2.5s steps(10);
 }
 span.third::before{
-    animation: text1 10s steps(1);
+    animation: text1 25s steps(1);
 }
 @keyframes text{
     0%{
